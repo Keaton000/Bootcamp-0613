@@ -1,0 +1,45 @@
+table {
+    border: 1px solid black;
+    text-align: center;
+    width: 100%;
+}
+
+thead {
+    background-color: #fc8a8a;
+}
+
+th {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+tr.row-1 {
+    background-color: #ffd4b3;
+}
+
+tr.row-2 {
+    background-color: #fff;
+}
+
+td#email {
+    color: #000ff0;
+    text-decoration: underline;
+}
+
+td#address {
+    text-transform: uppercase;
+}
+
+img {
+    width: 40px;
+    height: 30px;
+}
+
+#img {
+    background-image: url('../images/dog.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
